@@ -1,4 +1,4 @@
-let participantes = []; // Lista de participantes
+let participantes = []; 
 
 function agregarParticipante() {
     let input = document.getElementById("nombreParticipante");
@@ -9,7 +9,7 @@ function agregarParticipante() {
         return;
     }
 
-    // Evita nombres duplicados (ignorando mayúsculas/minúsculas)
+    // Evita nombres duplicados
     if (participantes.some(p => p.toLowerCase() === nombre.toLowerCase())) {
         alert("Ese nombre ya ha sido agregado.");
         return;

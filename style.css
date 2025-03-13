@@ -146,6 +146,7 @@ ul {
 .button-draw {
     display: flex;
     align-items: center;
+    margin: 10px;
     width: 100%;
     padding: 10px 40px;
     color: var(--color-white);
