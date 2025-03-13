@@ -9,6 +9,7 @@ El proyecto es una práctica básica para poner a prueba los conocimientos en l�
 - **Sorteo aleatorio**: Entre los nombres ingresado se selecciona uno al azar.
 - **Reiniciar sorteo**: Boton de reseteo para comenzar de nuevo.
 
----
+##
+Ignacio Ramón.
 
 
