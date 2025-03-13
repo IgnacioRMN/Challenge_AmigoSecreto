@@ -1,6 +1,6 @@
 # Challenge "Amigo Secreto" 
 
-El proyecto es una practica basica para poner a prueba los conocimientos en logica de programación del programa de Oracle. Consiste en una app para realizar sorteos.
+El proyecto es una práctica básica para poner a prueba los conocimientos en lógica de programación del programa de Oracle. Consiste en una app para realizar sorteos.
 
 ## 🚀 Funcionalidades
 
