@@ -38,7 +38,7 @@ function sortearParticipante() {
     }
 
     let indice = Math.floor(Math.random() * participantes.length);
-    document.getElementById("resultado").innerHTML = "🎉 Participante Sorteado: " + participantes[indice];
+    document.getElementById("resultado").innerHTML = "Participante Sorteado: " + participantes[indice];
 }
 
 function resetearJuego() {

@@ -1,9 +1,9 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-primary: #285151; /* Nuevo color primary */
+    --color-secondary: #F0F8F7; /* Un tono suave para combinar con el primary */
+    --color-tertiary: #faf964; /* Gris neutro para complementar */
+    --color-button: #B6DD6C; /* Nuevo color para el botón */
+    --color-button-hover: #A0C756; /* Un verde ligeramente más oscuro para el hover */
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -122,7 +122,7 @@ button {
 }
 
 .button-add:hover {
-    background-color: #a1a1a1;
+    background-color: #E6D04E;
 }
 
 /* Listas */
