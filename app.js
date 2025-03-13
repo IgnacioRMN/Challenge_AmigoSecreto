@@ -19,3 +19,14 @@ function agregarParticipante() {
     input.value = ""; // Limpiar input
     mostrarParticipantes(); // Actualizar la lista en la pantalla
 }
+
+function mostrarParticipantes() {
+    let lista = document.getElementById("listaParticipantes");
+    lista.innerHTML = ""; // Limpiar la lista antes de actualizar
+
+    participantes.forEach((nombre) => {
+        let li = document.createElement("li");
+        li.textContent = nombre;
+        lista.appendChild(li);
+    });
+}
