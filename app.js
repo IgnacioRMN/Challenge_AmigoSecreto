@@ -30,3 +30,19 @@ function mostrarParticipantes() {
         lista.appendChild(li);
     });
 }
+
+function sortearParticipante() {
+    if (participantes.length === 0) {
+        alert("No hay participantes en la lista.");
+        return;
+    }
+
+    let indice = Math.floor(Math.random() * participantes.length);
+    document.getElementById("resultado").innerHTML = "🎉 Participante Sorteado: " + participantes[indice];
+}
+
+function resetearJuego() {
+    participantes = []; // Vaciar el array
+    document.getElementById("listaParticipantes").innerHTML = ""; // Limpiar la lista en la pantalla
+    document.getElementById("resultado").innerHTML = ""; // Limpiar el resultado
+}
